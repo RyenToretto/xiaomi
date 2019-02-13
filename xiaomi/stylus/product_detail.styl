@@ -1,0 +1,298 @@
+$top_font_color=#b0b0b0
+$theme_color=#ff6700
+$core_width=1226px
+body
+    >header
+        height 40px
+        width 100%
+        background-color rgba(0, 0, 0, 0.8)
+        .top_box
+            width $core_width
+            height 100%
+            margin 0 auto
+            >ul
+                float left
+                width 70%
+                height 40px
+                >li
+                    float left
+                    cursor pointer
+                    height 40px
+                    line-height 40px
+                    padding 0 4px
+                    color $top_font_color
+                    &:first-child
+                        padding 0 8px
+                    &:last-child
+                        border-right 0 none
+                    &:hover
+                        a
+                            color #fff
+                    a
+                        color $top_font_color
+                        font-size 12px
+            div
+                float right
+                height 100%
+                >ul
+                    float left
+                    width 160px
+                    .cur_show
+                        display block
+                    >li
+                        cursor pointer
+                        display none
+                        float left
+                        height 40px
+                        line-height 40px
+                        padding 0 4px
+                        color $top_font_color
+                        &:first-child
+                            padding 0 8px
+                        &:last-child
+                            border-right 0 none
+                        &:hover
+                            a
+                                color #fff
+                        a
+                            color $top_font_color
+                            font-size 12px
+                .top_right_shopcar
+                    float right
+                    width 120px
+                    height 41px
+                    line-height 41px
+                    text-align center
+                    margin 0 16px
+                    background-color $theme_color
+                    &:hover
+                        background-color #666
+                    a
+                        font-size 12px
+                        line-height 1em
+                        color #fff
+                        .iconfont
+                            position relative
+                            top 2px
+                            left -2px
+    >section
+        width 100%
+    .nav_section
+        height 100px
+        .second_box
+            width $core_width
+            height 100px
+            margin 0 auto
+            div,ul
+                float left
+                line-height 100px
+            .imgs
+                width 234px
+                height 100px
+                display flex
+                align-items center
+                img:first-child
+                    width 50px
+            >ul>li
+                float left
+                cursor pointer
+                &:hover
+                    a
+                        color $theme_color
+                >a
+                    padding 0 10px
+                    font-size 16px
+            .right_search
+                float right
+                input
+                    width 250px
+                    height 50px
+                    padding 0 4px 0 2px
+                    border 1px solid $top_font_color
+                button
+                    width 52px
+                    height 52px
+                    border 1px solid $top_font_color
+                    background-color #fff
+                    cursor pointer
+                    line-height 52px
+    .title_section
+        width 100%
+        height 58px
+        background-color #f0f0f0
+        .title_box
+            width $core_width
+            margin 0 auto
+            
+            display flex
+            justify-content space-between
+            h3
+                width 300px
+                height 58px
+                line-height 58px
+                font-size 22px
+            .product_nav
+                margin-right 30px
+                li
+                    float left
+                    height 58px
+                    margin 0 4px
+                    display flex
+                    align-items center
+                    &:hover
+                        a
+                            color $theme_color
+                    a
+                        height 100%
+                        display flex
+                        align-items center
+                        font-size 14px
+    .detail_section
+        width 100%
+        margin-top 20px
+        .detail_box
+            position relative
+            width $core_width
+            margin 0 auto
+            
+            display flex
+            justify-content space-between
+            .left_view_box
+                position relative
+                width 562px
+                height 562px
+                border 1px solid #ccc
+                &:hover .scale_box
+                    display: block
+                .scale_box
+                    display none
+                    position absolute
+                    top 0
+                    left 0
+                    width 200px
+                    height 200px
+                    background-color rgba(0, 255, 0, 0)
+                .mark_box
+                    position absolute
+                    top 0
+                    left 0
+                    z-index 100
+                    width 100%
+                    height 100%
+                &:hover+.product_view
+                    display block
+            .product_view
+                display none
+                position absolute
+                top 0
+                right 0
+                width 620px
+                height 600px
+                overflow hidden
+                background-color #f8f8f8
+                img
+                    position absolute
+                    width 280%
+                    height 280%
+            .right_info_box
+                width 620px
+                height 600px
+                box-sizing border-box
+                padding 20px 0 20px 20px
+                background-color #f8f8f8
+                h3
+                    height 26px
+                    line-height 26px
+                    font-size 22px
+                .product_desc
+                    margin-top 10px
+                    margin-right 30px
+                    color #b0b0b0
+                    font-size 14px
+                    line-height 20px
+                .product_price
+                    margin-top 10px
+                    color $theme_color
+                    font-size 18px
+                    font-weight 700
+                .product_version_choice,
+                .product_color_choice
+                    margin-top 20px
+                    font-size 20px
+                .product_version,
+                .product_color
+                    font-size 18px
+                    margin-top 10px
+                    cursor pointer
+                    display flex
+                    justify-content space-between
+                    align-items center
+                    >div:hover
+                        border 1px solid $theme_color
+                        color $theme_color
+                .choice_box
+                    width 280px
+                    height 60px
+                    display flex
+                    justify-content center
+                    align-items center
+                    border 1px solid #bbb
+                    .dark_black
+                        width 14px
+                        height 14px
+                        border-radius 50%
+                        margin-right 10px
+                        background-color #000
+                    &:last-child
+                        margin-right 5px
+                .product_result
+                    height 120px
+                    margin-top 20px
+                    margin-right 5px
+                    display flex
+                    flex-direction column
+                    justify-content center
+                    
+                    background-color #fff
+                    .top_result
+                        height 20px
+                        padding 0 20px
+                        display flex
+                        justify-content space-between
+                        align-items center
+                    .price_result
+                        margin 20px 0 0 20px
+                        color $theme_color
+                        font-size 20px
+                        font-weight 700
+                .confirm_btns
+                    margin-top 20px
+                    >button
+                        width 200px
+                        height 50px
+                        margin-right 50px
+                        border 1px solid $theme_color
+                        cursor pointer
+                        color #fff
+                        font-size 18px
+                        font-weight 700
+                        background-color $theme_color
+                        &:hover
+                            border 1px solid #fff
+    footer
+        width 100%
+        height 180px
+        margin-top 20px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        
+        font-size 12px
+        background-color #fafafa
+        .nav_ul
+            li
+                float left
+                padding 0 4px
+        .backpack
+            margin 15px 0

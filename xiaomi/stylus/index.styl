@@ -1,0 +1,381 @@
+$top_font_color=#b0b0b0
+$theme_color=#ff6700
+$core_width=1226px
+body
+    >header
+        height 40px
+        width 100%
+        background-color rgba(0, 0, 0, 0.8)
+        .top_box
+            width $core_width
+            height 100%
+            margin 0 auto
+            >ul
+                float left
+                width 70%
+                height 40px
+                >li
+                    float left
+                    cursor pointer
+                    height 40px
+                    line-height 40px
+                    padding 0 4px
+                    color $top_font_color
+                    &:first-child
+                        padding 0 8px
+                    &:last-child
+                        border-right 0 none
+                    &:hover
+                        a
+                            color #fff
+                    a
+                        color $top_font_color
+                        font-size 12px
+            div
+                float right
+                height 100%
+                >ul
+                    float left
+                    width 160px
+                    .cur_show
+                        display block
+                    >li
+                        cursor pointer
+                        display none
+                        float left
+                        height 40px
+                        line-height 40px
+                        padding 0 4px
+                        color $top_font_color
+                        &:first-child
+                            padding 0 8px
+                        &:last-child
+                            border-right 0 none
+                        &:hover
+                            a
+                                color #fff
+                        a
+                            color $top_font_color
+                            font-size 12px
+                .top_right_shopcar
+                    float right
+                    width 120px
+                    height 41px
+                    line-height 41px
+                    text-align center
+                    margin 0 16px
+                    background-color $theme_color
+                    &:hover
+                        background-color #666
+                    a
+                        font-size 12px
+                        line-height 1em
+                        color #fff
+                        .iconfont
+                            position relative
+                            top 2px
+                            left -2px
+    >section
+        width 100%
+    .nav_section
+        height 100px
+        .second_box
+            width $core_width
+            height 100px
+            margin 0 auto
+            div,ul
+                float left
+                line-height 100px
+            .imgs
+                width 234px
+                height 100px
+                display flex
+                align-items center
+                img:first-child
+                    width 50px
+            >ul>li
+                float left
+                cursor pointer
+                &:hover
+                    a
+                        color $theme_color
+                >a
+                    padding 0 10px
+                    font-size 16px
+            .right_search
+                float right
+                input
+                    width 250px
+                    height 50px
+                    padding 0 4px 0 2px
+                    border 1px solid $top_font_color
+                button
+                    width 52px
+                    height 52px
+                    border 1px solid $top_font_color
+                    background-color #fff
+                    cursor pointer
+                    line-height 52px
+    .swiper_section
+        width 100%
+        .swiper_box
+            width $core_width
+            height 460px
+            margin 0 auto
+            >div,>ul
+                float left
+            .goods_nav
+                position relative
+                width 234px
+                height 100%
+                box-sizing border-box
+                padding-top 20px
+                background-color #0c0c13
+                >li
+                    width 174px
+                    height 40px
+                    line-height 40px
+                    padding 0 30px
+                    .show_hover_nav
+                        width 800px
+                        height 100%
+                        background-color #fff
+                        box-shadow 2px 3px 5px #ccc
+                        border 1px solid #ccc
+                        display none
+                        position absolute
+                        top 0
+                        right 0
+                        transform translateX(100%)
+                        z-index 100
+                        .nav_item
+                            width 265px
+                            height 71px
+                            display flex
+                            justify-content space-between
+                            align-items center
+                            >a
+                                display flex
+                                padding-left 20px
+                                font-size 16px
+                                img
+                                    width 40px
+                                    height 40px
+                            button
+                                display block
+                                width 62px
+                                height 26px
+                                line-height 26px
+                                color $theme_color
+                                border 1px solid $theme_color
+                                background-color #fff
+                                cursor pointer
+                    &:hover
+                        background-color $theme_color
+                        .show_hover_nav
+                            display flex
+                            flex-wrap wrap
+                            flex-direction column
+                            justify-content flex-start
+                            align-items flex-start
+                    >a
+                        color #fff
+                        font-size 14px
+                        margin-left 10px
+            .my_swiper
+                position relative
+                width 992px
+                height 100%
+                overflow hidden
+                img
+                    height 100%
+    .center_show_section
+        width 100%
+        margin-top 15px
+        .center_show_box
+            width $core_width
+            height 170px
+            margin 0 auto
+            display flex
+            justify-content space-between
+            >ul
+                width 234px
+                height 100%
+                background-color #ccc
+                >li
+                    float left
+                    opacity 0.8
+                    &:hover
+                        opacity 1
+            >a>img
+                    display block
+                    width 316px
+                    height 100%
+                    opacity 0.8
+                    &:hover
+                        opacity 1
+    .star_goods_section
+        width 100%
+        margin-top 15px
+        .star_goods_box
+            width $core_width
+            margin 0 auto
+            h3
+                font-size 22px
+                height 58px
+                line-height 58px
+                font-weight blod
+            .star_goods
+                display flex
+                justify-content space-between
+                li
+                    width 234px
+                    height 340px
+                    box-sizing border-box
+                    padding-top 20px
+                    display flex
+                    flex-direction column
+                    align-items center
+                    
+                    background-color #fafafa
+                    img
+                        width 160px
+                        height 160px
+                    a
+                        font-size 14px
+                        line-height 14px
+                        color #333
+                        margin-top 30px
+                    .goods_describe
+                        font-size 12px
+                        line-height 12px
+                        color #b0b0b0
+                        margin 15px 0
+                    .goods_price
+                        font-size 14px
+                        line-height 14px
+                        color #ff6709
+                    &:nth-child(1)
+                        border-top 1px solid orange
+                    &:nth-child(2)
+                        border-top 1px solid green
+                    &:nth-child(3)
+                        border-top 1px solid blue
+                    &:nth-child(4)
+                        border-top 1px solid yellow
+                    &:nth-child(5)
+                        border-top 1px solid teal
+    .fitting_section
+        width 100%
+        margin-top 15px
+        .fitting_box
+            width $core_width
+            margin 0 auto
+            background-color #f5f5f5
+            h3
+                font-size 22px
+                height 58px
+                line-height 58px
+                font-weight blod
+            .fitting_goods
+                display flex
+                justify-content space-between
+                &:last-child
+                    margin-top 14px
+                li
+                    position relative
+                    width 234px
+                    height 300px
+                    background-color #fff
+                    &:hover
+                        transform translateY(-2px)
+                        box-shadow 0 0 30px #ccc
+                        .fitting .user_comment
+                            position absolute
+                            bottom 0
+                            left 0
+                            width 100%
+                            height 70px
+                            display flex
+                            flex-direction column
+                            justify-content center
+                            align-items center
+                            
+                            color #fff
+                            font-size 12px
+                            background $theme_color
+                            span
+                                margin-top 5px
+                    .fitting
+                        display flex
+                        flex-direction column
+                        align-items center
+                        .good_info
+                            width 65px
+                            height 20px
+                            line-height 20px
+                            color #fff
+                            font-size 10px
+                            text-align center
+                        .new_good
+                            background #83c44e
+                        .percent_good
+                            background #f00
+                        >img
+                            width 150px
+                            height 150px
+                            margin 10px 42px 20px 42px
+                        .good_name
+                            height 25px
+                            line-height 25px
+                            font-size 14px
+                            color #000
+                        .good_price
+                            height 25
+                            line-height 25px
+                            font-size 14px
+                            color #ff6670
+                        .good_comment
+                            height 15px
+                            line-height 15px
+                            font-size 12px
+                            color #aaa
+                        .user_comment
+                            display none
+                .last_li
+                    background-color #0000
+                    &:hover
+                        transform none
+                        box-shadow none
+                    .last_fitting
+                        height 300px
+                        >div
+                            width 234px
+                            height 146px
+                            background-color #fff
+                            &:last-child
+                                margin-top 14px
+                            img
+                                width 100%
+                                height 100%
+                        .little_fitting:hover,
+                        .more_fitting:hover
+                            transform translateY(-2px)
+                            box-shadow 0 0 30px #ccc
+    footer
+        width 100%
+        height 180px
+        margin-top 20px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        
+        font-size 12px
+        background-color: #fafafa
+        .nav_ul
+            li
+                float left
+                padding 0 4px
+        .backpack
+            margin 15px 0
