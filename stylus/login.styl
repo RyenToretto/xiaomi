@@ -1,0 +1,81 @@
+$theme_color=#ff6700
+$core_width=1000px
+body
+    background-color #14212a
+    .register_section
+        width $core_width
+        height 550px
+        border-radius 6px
+        margin 20px auto
+        background-color #fff
+        .register_box
+            width 760px
+            height 465px
+            margin 0 auto
+            header
+                display flex
+                justify-content space-between
+                padding-bottom 8px
+                margin-bottom 8px
+                border-bottom 2px solid $theme_color
+                h3
+                    height 40px
+                    line-height 40px
+                    font-size 20px
+                    font-weight 700
+                    color #000
+                h4
+                    height 40px
+                    line-height 40px
+                    font-size 12px
+                    font-weight 700
+                    color $theme_color
+            form
+                position relative
+                display flex
+                flex-direction column
+                justify-content center
+                width 760px
+                height 340px
+                box-sizing border-box
+                padding 10px 0 10px 45px
+                button
+                    position absolute
+                    bottom 0
+                    top 100%
+                    transform translateY(20px)
+                    width 440px
+                    height 45px
+                    font-size 22px
+                    font-weight 700
+                    color: #fff
+                    background-color: $theme_color
+                    border 1px solid $theme_color
+                    &:hover
+                        border 1px solid #fff
+                label
+                    margin 10px 0
+                    height 40px
+                    line-height 40px
+                    display flex
+                    .input_tips
+                        font-size 12px
+                        font-weight 700
+                        color #ccc
+                        &:hover
+                            color $theme_color
+                    input
+                        width 220px
+                        height 30px
+                        margin-right 20px
+                        padding 5px 10px
+                        border 1px solid #ccc
+                    &.check_box
+                        input
+                            width 100px
+                        .check_code
+                            width 98px
+                    span:first-child
+                        display block
+                        width 80px
+                        text-align right

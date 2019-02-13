@@ -1,0 +1,94 @@
+body {
+  background-color: #14212a;
+}
+body .register_section {
+  width: 1000px;
+  height: 550px;
+  border-radius: 6px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+body .register_section .register_box {
+  width: 760px;
+  height: 465px;
+  margin: 0 auto;
+}
+body .register_section .register_box header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ff6700;
+}
+body .register_section .register_box header h3 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+body .register_section .register_box header h4 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff6700;
+}
+body .register_section .register_box form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 760px;
+  height: 340px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 45px;
+}
+body .register_section .register_box form button {
+  position: absolute;
+  bottom: 0;
+  top: 100%;
+  transform: translateY(20px);
+  width: 440px;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff6700;
+  border: 1px solid #ff6700;
+}
+body .register_section .register_box form button:hover {
+  border: 1px solid #fff;
+}
+body .register_section .register_box form label {
+  margin: 10px 0;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+body .register_section .register_box form label .input_tips {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ccc;
+}
+body .register_section .register_box form label .input_tips:hover {
+  color: #ff6700;
+}
+body .register_section .register_box form label input {
+  width: 220px;
+  height: 30px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+body .register_section .register_box form label.check_box input {
+  width: 100px;
+}
+body .register_section .register_box form label.check_box .check_code {
+  width: 98px;
+}
+body .register_section .register_box form label span:first-child {
+  display: block;
+  width: 80px;
+  text-align: right;
+}
