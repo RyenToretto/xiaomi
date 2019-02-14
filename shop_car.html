@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- 刘佳 15011456677 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>小米商城-我的购物车</title>
+        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="viewport"
+              content="user-scalable=no,
+                       width=device-width,
+                       initial-scale=1.0,
+                       minimum-scale=1.0,
+                       maximum-scale=1.0"/>
+        
+        <link rel="stylesheet" type="text/css" href="./stylus/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="./stylus/shop_car.css"/>
+        <link rel="stylesheet" type="text/css" href="./stylus/font/iconfont.css"/>
+    </head>
+    
+    <body>
+        <header>
+            <div class="top_box">
+                <ul>
+                    <li><a href="javascript:">小米商城</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">MIUI</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">米聊</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">游戏</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">多看阅读</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">云服务</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">金融</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">小米商城移动版</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">问题反馈</a></li>
+                    <li>|</li>
+                    <li><a href="javascript:">Select Region</a></li>
+                </ul>
+                
+                <div>
+                    <ul>
+                        <li class="cur_show"><a href="javascript:">登录</a></li>
+                        <li class="cur_show">|</li>
+                        <li class="cur_show"><a href="javascript:">注册</a></li>
+                        <li class="cur_show">|</li>
+                        <li><a href="javascript:">个人中心</a></li>
+                        <li class="cur_show"><a href="javascript:">消息通知</a></li>
+                    </ul>
+                    <div class="top_right_shopcar">
+                        <a href="javascript:">
+                            <span class="iconfont">&#xe605;</span>购物车
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="shop_title_section">
+            <div class="shop_title_box clearfix">
+                <a href="javascript:"><img src="./img/logo_top.png"/></a>
+                <h3>我的购物车</h3>
+                <span>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+            </div>
+        </section>
+    
+        <section class="shop_section">
+            <div class="shop_box">
+                <div class="product_list_desc">
+                    <label class="product_all_select">
+                        <input type="checkbox" />全选
+                    </label>
+                    <span class="product_name">商品名称</span>
+                    <span class="product_price">单价</span>
+                    <span class="product_num">数量</span>
+                    <span class="product_money">小计</span>
+                    <span class="product_manage">操作</span>
+                </div>
+                
+                <ul class="product_list">
+                    <li><ul>
+                        <li>
+                            <label class="product_checkbox">
+                                <input type="checkbox" />
+                            </label>
+                            <img class="product_img" src="./img/gwc_xiaomi6.jpg"/>
+                            <span class="product_name">小米6全网通6GB内存+64GB 亮黑色</span>
+                            <span class="product_price"><span>2499</span>元</span>
+                            <label class="product_num">
+                                <input type="number" value="1"/>
+                            </label>
+                            <span class="product_money"><span>2499</span>元</span>
+                            <a class="product_manage" href="javascript:">×</a>
+                        </li>
+                        
+                        <li>
+                            <label class="product_checkbox">
+                                <input type="checkbox" />
+                            </label>
+                            <img class="product_img" src="./img/gwc_xiaomi6.jpg"/>
+                            <span class="product_name">小米6全网通6GB内存+64GB 亮黑色</span>
+                            <span class="product_price"><span>2499</span>元</span>
+                            <label class="product_num">
+                                <input type="number" value="1"/>
+                            </label>
+                            <span class="product_money"><span>2499</span>元</span>
+                            <a class="product_manage" href="javascript:">×</a>
+                        </li>
+                    </ul></li>
+                </ul>
+                
+                <div class="product_action">
+                    <div class="left_action">
+                        <a href="javascript:">继续购物</a>
+                        <span class="center_line">|</span>
+                        <span>共&nbsp;<span>2</span>&nbsp;件商品，已选择&nbsp;<span id="user_selected">0</span>&nbsp;件</span>
+                    </div>
+                    <div class="right_action">
+                        <span>合计（不含运费）：<span><span id="product_final_price">2499.00</span>元</span></span>
+                        <button type="button">去结算</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <ul class="nav_ul">
+                <li><a href="javascript:">小米商城</a></li>
+                <li>|</li>
+                <li><a href="javascript:">MIUI</a></li>
+                <li>|</li>
+                <li><a href="javascript:">米聊</a></li>
+                <li>|</li>
+                <li><a href="javascript:">多看书城</a></li>
+                <li>|</li>
+                <li><a href="javascript:">小米路由器</a></li>
+                <li>|</li>
+                <li><a href="javascript:">视频电话</a></li>
+                <li>|</li>
+                <li><a href="javascript:">小米天猫店</a></li>
+                <li>|</li>
+                <li><a href="javascript:">小米淘宝直营店</a></li>
+                <li>|</li>
+                <li><a href="javascript:">小米网盟</a></li>
+                <li>|</li>
+                <li><a href="javascript:">小米移动</a></li>
+                <li>|</li>
+                <li><a href="javascript:">隐私政策</a></li>
+                <li>|</li>
+                <li><a href="javascript:">Select Region</a></li>
+            </ul>
+            <div class="backpack">©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div>
+            <div class="bad_call">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+        </footer>
+        
+        <script type="text/javascript" src="./js/shop_car.js"></script>
+    </body>
+</html>
