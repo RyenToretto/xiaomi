@@ -1,0 +1,428 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+}
+header .center {
+  width: 1226px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .center > ul {
+  flex-shrink: 0;
+  display: flex;
+  width: 612px;
+}
+header .center ul li a {
+  display: flex;
+  align-items: center;
+  height: 12px;
+  font-size: 12px;
+  color: #b0b0b0;
+  padding: 0 8px;
+  border-right: 1px solid #b0b0b0;
+}
+header .center ul li:last-of-type a {
+  border-right: none;
+}
+header .center .fr {
+  display: flex;
+  width: 308px;
+  height: 40px;
+}
+header .center .fr ul {
+  display: flex;
+  align-items: center;
+  width: 149px;
+  height: 100%;
+}
+header .center .fr .shopcart {
+  display: flex;
+  width: 120px;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6700;
+}
+content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+content > * {
+  width: 1226px;
+  flex-shrink: 0;
+}
+content nav {
+  height: 100px;
+}
+content nav > * {
+  float: left;
+}
+content nav > a {
+  display: block;
+  height: 100%;
+}
+content nav .logo {
+  width: 50px;
+  text-indent: -10000px;
+  background: url("../image/logo_top.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+content nav > .gif {
+  width: 180px;
+  background: url("../image/yyymix.gif") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+content nav > ul {
+  display: flex;
+  height: 100%;
+}
+content nav > ul > li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 16px;
+}
+content nav .fr {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+content nav .fr .text {
+  box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+content nav .fr .button {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+content nav .fr .button:active {
+  background-color: #ff6700;
+  color: #fff;
+}
+content .banner {
+  height: 460px;
+  background-color: #ccc;
+}
+content .banner .aside {
+  width: 234px;
+  height: 100%;
+  background-color: #0c0c13;
+  padding: 20px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+content .banner .aside > ul > li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 30px;
+  font-size: 14px;
+}
+content .banner .aside > ul > li:hover {
+  background-color: #ff6700;
+}
+content .banner .aside > ul > li:hover .pop {
+  display: flex;
+}
+content .banner .aside > ul > li a {
+  color: #fff;
+  margin-left: 10px;
+}
+content .banner .aside > ul > li .pop {
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  position: absolute;
+  box-shadow: 2px 3px 5px #ccc;
+  right: 0;
+  top: 0;
+  transform: translateX(99.9%);
+  z-index: 2;
+  width: 800px;
+  height: 461px;
+  background-color: #fff;
+}
+content .banner .aside > ul > li .pop > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 265px;
+  height: 71px;
+  padding: 20px 0 0 10px;
+  margin-bottom: 3px;
+}
+content .banner .aside > ul > li .pop > li a {
+  display: flex;
+  align-items: center;
+}
+content .banner .aside > ul > li .pop > li .xuangou_left {
+  color: #000;
+}
+content .banner .aside > ul > li .pop > li .xuangou_left img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+content .banner .aside > ul > li .pop > li .xuangou_right {
+  justify-content: center;
+  color: #ff6700;
+  width: 60px;
+  height: 24px;
+  font-size: 12px;
+  border: 1px solid #ff6700;
+}
+content .banner .swiper-container {
+  width: 992px;
+  height: 100%;
+}
+content .banner .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+content .sub_banner {
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  margin-top: 15px;
+}
+content .sub_banner .selector {
+  width: 234px;
+  height: 100%;
+}
+content .sub_banner .selector .sidebar {
+  float: left;
+  display: block;
+  width: 78px;
+  height: 85px;
+}
+content .sub_banner .selector .sidebar img {
+  opacity: 0.8;
+}
+content .sub_banner .selector .sidebar img:hover {
+  opacity: 1;
+}
+content .sub_banner .bigImg {
+  width: 316px;
+  height: 100%;
+}
+content .sub_banner .bigImg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+content .sub_banner .bigImg a img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+content .sub_banner .bigImg a img:hover {
+  opacity: 1;
+}
+content .recommend {
+  height: 398px;
+  margin-top: 20px;
+}
+content .recommend > h2 {
+  height: 58px;
+  line-height: 58px;
+}
+content .recommend ul {
+  display: flex;
+  justify-content: space-between;
+}
+content .recommend ul li {
+  width: 234px;
+  height: 340px;
+  background-color: #fafafa;
+  border-top: 1px solid #ffa500;
+}
+content .recommend ul li:nth-child(2) {
+  border-color: #008000;
+}
+content .recommend ul li:nth-child(3) {
+  border-color: #00f;
+}
+content .recommend ul li:nth-child(4) {
+  border-color: #f00;
+}
+content .recommend ul li:nth-child(5) {
+  border-color: #008080;
+}
+content .recommend ul li a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+content .recommend ul li a img {
+  width: 160px;
+  height: 160px;
+  opacity: 0.8;
+  margin: 37px;
+}
+content .recommend ul li a .discount {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin: 15px 0;
+}
+content .recommend ul li a .price {
+  color: #ff6709;
+}
+content .recommend ul li a:hover img {
+  opacity: 1;
+}
+content .parts {
+  height: 672px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+content .parts > h2 {
+  height: 58px;
+  line-height: 58px;
+}
+content .parts ul {
+  display: flex;
+  height: 614px;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+content .parts ul li {
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+}
+content .parts ul li:hover {
+  box-shadow: 0px 0px 30px #ccc;
+}
+content .parts ul li:hover .comment {
+  transform: translateY(0);
+}
+content .parts ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+content .parts ul li a .info {
+  width: 65px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 10px;
+}
+content .parts ul li a .new {
+  background-color: #83c44e;
+}
+content .parts ul li a .discount {
+  background-color: #f00;
+}
+content .parts ul li a > p {
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+content .parts ul li a .price {
+  color: #ff6700;
+}
+content .parts ul li a .counter {
+  height: 15px;
+  line-height: 15px;
+  color: #aaa;
+  font-size: 12px;
+}
+content .parts ul li a img {
+  width: 160px;
+  height: 160px;
+  margin: 10px 0 20px;
+}
+content .parts ul li a .comment {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(101%);
+  transition: transform 0.4s;
+  box-sizing: border-box;
+  height: 70px;
+  padding: 10px 0 0 30px;
+  background-color: #ff6700;
+  color: #fff;
+  text-align: left;
+}
+content .parts ul li a .comment p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+content .parts ul .more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+}
+content .parts ul .more:hover {
+  box-shadow: 0px 0px 0px;
+}
+content .parts ul .more a {
+  display: block;
+  width: 100%;
+  height: 142px;
+}
+content .parts ul .more a:hover {
+  box-shadow: 0px 0px 30px #ccc;
+}
+content .parts ul .more a img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+content .parts ul li:nth-child(1) .bigImg,
+content .parts ul li:nth-child(6) .bigImg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 120px;
+  margin-top: 20px;
+  padding: 30px 0;
+  font-size: 12px;
+}
+footer p {
+  height: 30px;
+}
+/*# sourceMappingURL=index.css.map */

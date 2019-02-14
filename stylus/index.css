@@ -360,21 +360,7 @@ body .fitting_section .fitting_box .fitting_goods li:hover {
   box-shadow: 0 0 30px #ccc;
 }
 body .fitting_section .fitting_box .fitting_goods li:hover .fitting .user_comment {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   height: 70px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 12px;
-  background: #ff6700;
-}
-body .fitting_section .fitting_box .fitting_goods li:hover .fitting .user_comment span {
-  margin-top: 5px;
 }
 body .fitting_section .fitting_box .fitting_goods li .fitting {
   display: flex;
@@ -419,7 +405,22 @@ body .fitting_section .fitting_box .fitting_goods li .fitting .good_comment {
   color: #aaa;
 }
 body .fitting_section .fitting_box .fitting_goods li .fitting .user_comment {
-  display: none;
+  transition: 200ms height linear;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  background: #ff6700;
+}
+body .fitting_section .fitting_box .fitting_goods li .fitting .user_comment span {
+  margin-top: 5px;
 }
 body .fitting_section .fitting_box .fitting_goods .last_li {
   background-color: rgba(0,0,0,0);

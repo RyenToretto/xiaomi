@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>小米手机列表</title>
+		<link rel="stylesheet" href="css/iconfont.css">
 		<link rel="stylesheet" href="stylus/common.css">
-		<link rel="stylesheet" href="stylus/liebiao.css">
+		<link rel="stylesheet" href="stylus/search.css">
 	</head>
 	<body>
 	<!-- start header -->
@@ -35,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="">购物车</a></div>
+					<div class="gouwuche fr"><a href=""><i class="iconfont icon-cart"></i>购物车</a></div>
 					<div class="fr">
 						<ul>
 							<li><a href="./login.html" target="_blank">登录</a></li>
@@ -75,7 +76,7 @@
 						<input type="text" class="shuru"  placeholder="小米6&nbsp;小米MIX现货">
 					</div>
 					<div class="submit fl">
-						<input type="submit" class="sousuo" value="搜索"/>
+						<div class="button iconfont icon-search"></div>
 					</div>
 					<div class="clear"></div>
 				</form>
@@ -87,6 +88,22 @@
 	<!-- start banner_y -->
 	<!-- end banner -->
 
+	<div class="classify">
+		<span>分类:</span>
+		<div class="active">全部</div>
+		<div>保护套/保护壳</div>
+		<div>贴膜</div>
+		<div>手机</div>
+	</div>
+
+	<div class="wrap">
+		<div class="sort">
+			<div class="active">推荐</div>
+			<div>新品</div>
+			<div>价格<i class="iconfont icon-jiantou_xiangshang"></i></div>
+			<div>评论最多</div>
+		</div>
+	</div>
 	<!-- start danpin -->
 		<div class="danpin center">
 			
@@ -159,10 +176,40 @@
 				
 				<div class="clear"></div>
 			</div>
+			<div class="pages">
+				<div class="pre iconfont icon-jiantou_xiangzuo disable">
+				</div>
+				<div class="active">
+					1
+				</div>
+				<div>
+					2
+				</div>
+				<div>
+					3
+				</div>
+				<div>
+					4
+				</div>
+				<div>
+					5
+				</div>
+				<div>
+					6
+				</div>
+				<div>
+					7
+				</div>
+				<div>
+					8
+				</div>
+				<div class="next iconfont icon-jiantou_xiangyou">
+				</div>
+			</div>
 		</div>
 		
 
-		<footer class="mt20 center">			
+		<footer class="center">
 			<div class="mt20">小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
 			<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div> 
 			<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
@@ -171,6 +218,6 @@
 
 	<!-- end danpin -->
 
-
+	<script src="js/search.js"></script>
 	</body>
 </html>

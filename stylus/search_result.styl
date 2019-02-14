@@ -1,0 +1,285 @@
+$top_font_color=#b0b0b0
+$theme_color=#ff6700
+$core_width=1226px
+
+body
+    >header
+        height 40px
+        width 100%
+        background-color rgba(0, 0, 0, 0.8)
+        .top_box
+            width $core_width
+            height 100%
+            margin 0 auto
+            >ul
+                float left
+                width 70%
+                height 40px
+                >li
+                    float left
+                    cursor pointer
+                    height 40px
+                    line-height 40px
+                    padding 0 4px
+                    color $top_font_color
+                    &:first-child
+                        padding 0 8px
+                    &:last-child
+                        border-right 0 none
+                    &:hover
+                        a
+                            color #fff
+                    a
+                        color $top_font_color
+                        font-size 12px
+            div
+                float right
+                height 100%
+                >ul
+                    float left
+                    width 160px
+                    .cur_show
+                        display block
+                    >li
+                        cursor pointer
+                        display none
+                        float left
+                        height 40px
+                        line-height 40px
+                        padding 0 4px
+                        color $top_font_color
+                        &:first-child
+                            padding 0 8px
+                        &:last-child
+                            border-right 0 none
+                        &:hover
+                            a
+                                color #fff
+                        a
+                            color $top_font_color
+                            font-size 12px
+                .top_right_shopcar
+                    float right
+                    width 120px
+                    height 41px
+                    line-height 41px
+                    text-align center
+                    margin 0 16px
+                    background-color $theme_color
+                    &:hover
+                        background-color #666
+                    a
+                        font-size 12px
+                        line-height 1em
+                        color #fff
+                        .iconfont
+                            position relative
+                            top 2px
+                            left -2px
+    
+    >section
+        width 100%
+    
+    .nav_section
+        height 100px
+        .second_box
+            width $core_width
+            height 100px
+            margin 0 auto
+            div,ul
+                float left
+                line-height 100px
+            .imgs
+                width 234px
+                height 100px
+                display flex
+                align-items center
+                img:first-child
+                    width 50px
+            >ul>li
+                float left
+                cursor pointer
+                &:hover
+                    a
+                        color $theme_color
+                >a
+                    padding 0 10px
+                    font-size 16px
+            .right_search
+                float right
+                input
+                    width 250px
+                    height 50px
+                    padding 0 4px 0 2px
+                    border 1px solid $top_font_color
+                button
+                    width 52px
+                    height 52px
+                    border 1px solid $top_font_color
+                    background-color #fff
+                    cursor pointer
+                    line-height 52px
+    
+    .category_section
+        height 80px
+        line-height 80px
+        
+        .category_box
+            width $core_width
+            margin 0 auto
+            display flex
+            .category
+                width 72px
+                margin-left 15px
+                font-size 14px
+                color #b0b0b0
+            .as_all
+                width 172px
+                font-size 14px
+                color $theme_color
+            .as_protect,
+            .as_patch,
+            .as_phone
+                width 172px
+                font-size 14px
+                color #000
+                &:hover
+                    color $theme_color
+    
+    .suggest_section
+        height 80px
+        line-height 80px
+        background-color #f5f5f5
+        
+        .suggest_box
+            width $core_width
+            margin 0 auto
+            li
+                float left
+                padding 0 15px
+                color #e0e0e0
+                >a
+                    color #000
+                    &:hover
+                        color $theme_color
+                &:first-child>a
+                    color $theme_color
+                
+    
+    .phone_list_section
+        width 100%
+        margin-top 20px
+        .phone_list_box
+            width $core_width
+            margin 0 auto
+            h3
+                width 100%
+                height 58px
+                line-height 58px
+                font-size 22px
+                font-weight 700
+            .phone_list
+                width 100%
+                height 700px
+                display flex
+                flex-wrap wrap
+                justify-content space-between
+                align-items space-between
+                li
+                    width 230px
+                    height 340px
+                    margin-bottom 10px
+                    background-color: #fafafa
+                    display flex
+                    justify-content center
+                    border 2px solid #fff
+                    &:hover
+                        border 2px solid $theme_color
+                    .phone_box
+                        display flex
+                        flex-direction column
+                        justify-content center
+                        align-items center
+                        img
+                            width 160px
+                            height 160px
+                            text-align center
+                            margin-bottom 30px
+                            opacity 0.85
+                            &:hover
+                                opacity 1
+                        .phone_name
+                            font-size 14px
+                            height 14px
+                            line-height 14px
+                            color #333
+                            text-align center
+                        .phone_info
+                            font-size 12px
+                            height 12px
+                            line-height 12px
+                            color #b0b0b0
+                            text-align center
+                            margin 15px 0
+                        .phone_price
+                            font-size 14px
+                            color $theme_color
+                            text-align center
+    
+    
+                            
+    .paginator_section
+        height 50px
+        display flex
+        justify-content center
+        align-items center
+        background-color: #f5f5f5
+        .paginator_box
+            >li
+                float left
+                width 48px
+                height 24px
+                line-height 24px
+                text-align center
+                margin 0 7px
+                padding 2px 0
+                >a
+                    display block
+                    width 100%
+                    height 100%
+                &:hover,
+                &.cur_page
+                    background-color: #757575
+                    a
+                        color #fff
+                &:first-child,
+                &:last-child
+                    background-color: #f5f5f5
+                    a
+                        color #b0b0b0
+                        cursor default
+                    &.can_click
+                        a
+                            color #000
+                            cursor pointer
+                    &:hover.can_click
+                        background-color: #b0b0b0
+                        a
+                            color #fff
+                
+    footer
+        width 100%
+        height 180px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        
+        font-size 12px
+        background-color #fafafa
+        .nav_ul
+            li
+                float left
+                padding 0 4px
+        .backpack
+            margin 15px 0

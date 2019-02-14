@@ -1,0 +1,302 @@
+/*header*/
+header {
+  width: 100%;
+  height: 40px;
+  background: #333;
+}
+header .top {
+  width: 1226px;
+  height: 40px;
+  line-height: 40px;
+}
+header .top .left ul li {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+header .top .left ul li a {
+  display: block;
+  padding: 0 8px;
+  font-size: 12px;
+  font-family: Times New Roman;
+  color: #b0b0b0;
+}
+header .top .left ul li a:hover {
+  color: #fff;
+}
+header .top .right ul li {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+header .top .right ul li a {
+  display: block;
+  padding: 0 8px;
+  font-size: 12px;
+  font-family: Times New Roman;
+  color: #b0b0b0;
+}
+header .top .right ul li a:hover {
+  color: #fff;
+}
+header .top .right .gouwuche {
+  margin: 0 20px;
+  background: #424242;
+  width: 120px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  background: #ff6700;
+  color: #fff;
+}
+header .top .right .gouwuche a {
+  color: #fff;
+}
+header .top .right .gouwuche:hover {
+  color: #000;
+  background: #666;
+}
+/*banner_x*/
+.banner_x {
+  width: 1226px;
+  height: 100px;
+}
+.banner_x .logo {
+  background: url("../image/logo_top.png") no-repeat center center;
+  width: 50px;
+  height: 100px;
+}
+.banner_x .ad_top {
+  width: 180px;
+  height: 100px;
+  background: url("../image/yyymix.gif") no-repeat center center;
+}
+.banner_x .nav ul li {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+}
+.banner_x .nav ul li a {
+  display: inline-block;
+  color: #000;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.banner_x .nav ul li a:hover {
+  color: #ff6700;
+}
+.banner_x .search {
+  width: 308px;
+  height: 100px;
+  line-height: 100px;
+}
+.banner_x .search .text {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  margin-top: 25px;
+  border: 1px solid #ccc;
+}
+.banner_x .search .text:hover {
+  border-color: #ff6700;
+}
+.banner_x .search .text .shuru {
+  border: none;
+  width: 250px;
+  height: 50px;
+}
+.banner_x .search .submit {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 25px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.banner_x .search .submit:active {
+  background-color: #ff6700;
+  color: #fff;
+}
+.classify {
+  width: 1226px;
+  height: 81px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.classify span {
+  color: #b0b0b0;
+  width: 72px;
+  height: 21px;
+}
+.classify div {
+  width: 172px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+}
+.classify div:hover {
+  color: #ff6700;
+}
+.classify .active {
+  color: #ff6700;
+}
+.wrap {
+  width: 100%;
+  height: 81px;
+  background-color: #f5f5f5;
+}
+.wrap .sort {
+  width: 1226px;
+  height: 81px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.wrap .sort div {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-left: 1px solid #e0e0e0;
+  transition: color 0.2s;
+}
+.wrap .sort div:nth-child(1) {
+  text-align: left;
+  padding-left: 0;
+  border-left: 0;
+}
+.wrap .sort div:hover {
+  color: #ff6700;
+}
+.wrap .sort .active {
+  color: #ff6700;
+}
+/*danpin*/
+.biaoti {
+  width: 1226px;
+  height: 58px;
+  line-height: 58px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.danpin .main {
+  width: 1226px;
+  height: 340px;
+}
+.danpin .main .mingxing {
+  width: 234px;
+  height: 339px;
+  background: #fafafa;
+}
+.danpin .main .mingxing:nth-of-type(1) {
+  border-top: 1px solid #ffa500;
+  margin-right: 14px;
+}
+.danpin .main .mingxing:nth-of-type(2) {
+  border-top: 1px solid #008000;
+  margin-right: 14px;
+}
+.danpin .main .mingxing:nth-of-type(3) {
+  border-top: 1px solid #00f;
+  margin-right: 14px;
+}
+.danpin .main .mingxing:nth-of-type(4) {
+  border-top: 1px solid #f00;
+  margin-right: 14px;
+}
+.danpin .main .mingxing:nth-of-type(5) {
+  border-top: 1px solid #008080;
+}
+.danpin .main .mingxing .sub_mingxing {
+  padding: 37px;
+}
+.danpin .main .mingxing .sub_mingxing a img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  opacity: 0.85;
+}
+.danpin .main .mingxing .sub_mingxing a img:hover {
+  width: 160px;
+  height: 160px;
+  opacity: 1;
+}
+.danpin .main .mingxing .pinpai {
+  width: 234px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: -10px;
+}
+.danpin .main .mingxing .pinpai a {
+  font-size: 14px;
+  color: #333;
+}
+.danpin .main .mingxing .youhui {
+  width: 234px;
+  height: 12px;
+  line-height: 12px;
+  margin: 15px 0;
+  font-size: 12px;
+  color: #b0b0b0;
+  text-align: center;
+}
+.danpin .main .mingxing .jiage {
+  font-size: 14px;
+  text-align: center;
+  color: #ff6709;
+}
+.danpin .pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+.danpin .pages div {
+  flex-shrink: 0;
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+  padding: 3px 0;
+  margin: 0 7px;
+  text-align: center;
+  color: #b0b0b0;
+  cursor: pointer;
+  background: rgba(0,0,0,0);
+  transition: all 0.2s;
+}
+.danpin .pages div:hover {
+  background: #b0b0b0;
+  color: #fff;
+}
+.danpin .pages div.active {
+  background-color: #757575;
+  color: #fff;
+}
+.danpin .pages div.disable {
+  background: rgba(0,0,0,0);
+  color: #b0b0b0;
+  cursor: default;
+}
+/*footer*/
+footer {
+  width: 100%;
+  height: 120px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  background: #fafafa;
+  padding: 30px 0;
+}

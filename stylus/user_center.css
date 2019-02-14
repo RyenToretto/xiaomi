@@ -1,0 +1,262 @@
+body >header {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+body >header .top_box {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+}
+body >header .top_box >ul {
+  float: left;
+  width: 70%;
+  height: 40px;
+}
+body >header .top_box >ul >li {
+  float: left;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 4px;
+  color: #b0b0b0;
+}
+body >header .top_box >ul >li:first-child {
+  padding: 0 8px;
+}
+body >header .top_box >ul >li:last-child {
+  border-right: 0 none;
+}
+body >header .top_box >ul >li:hover a {
+  color: #fff;
+}
+body >header .top_box >ul >li a {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+body >header .top_box div {
+  float: right;
+  height: 100%;
+}
+body >header .top_box div >ul {
+  float: left;
+  width: 160px;
+}
+body >header .top_box div >ul .cur_show {
+  display: block;
+}
+body >header .top_box div >ul >li {
+  cursor: pointer;
+  display: none;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 4px;
+  color: #b0b0b0;
+}
+body >header .top_box div >ul >li:first-child {
+  padding: 0 8px;
+}
+body >header .top_box div >ul >li:last-child {
+  border-right: 0 none;
+}
+body >header .top_box div >ul >li:hover a {
+  color: #fff;
+}
+body >header .top_box div >ul >li a {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+body >header .top_box div .top_right_shopcar {
+  float: right;
+  width: 120px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  margin: 0 16px;
+  background-color: #ff6700;
+}
+body >header .top_box div .top_right_shopcar:hover {
+  background-color: #666;
+}
+body >header .top_box div .top_right_shopcar a {
+  font-size: 12px;
+  line-height: 1em;
+  color: #fff;
+}
+body >header .top_box div .top_right_shopcar a .iconfont {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+body >section {
+  width: 100%;
+}
+body .nav_section {
+  height: 100px;
+}
+body .nav_section .second_box {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+}
+body .nav_section .second_box div,
+body .nav_section .second_box ul {
+  float: left;
+  line-height: 100px;
+}
+body .nav_section .second_box .imgs {
+  width: 234px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+body .nav_section .second_box .imgs img:first-child {
+  width: 50px;
+}
+body .nav_section .second_box >ul>li {
+  float: left;
+  cursor: pointer;
+}
+body .nav_section .second_box >ul>li:hover a {
+  color: #ff6700;
+}
+body .nav_section .second_box >ul>li >a {
+  padding: 0 10px;
+  font-size: 16px;
+}
+body .nav_section .second_box .right_search {
+  float: right;
+}
+body .nav_section .second_box .right_search input {
+  width: 250px;
+  height: 50px;
+  padding: 0 4px 0 2px;
+  border: 1px solid #b0b0b0;
+}
+body .nav_section .second_box .right_search button {
+  width: 52px;
+  height: 52px;
+  border: 1px solid #b0b0b0;
+  background-color: #fff;
+  cursor: pointer;
+  line-height: 52px;
+}
+body .user_section {
+  height: 500px;
+  padding: 20px 0;
+  background-color: #f5f5f5;
+}
+body .user_section .user_box {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .user_section .user_box .left_nav {
+  width: 234px;
+  height: 100%;
+  background-color: #fff;
+}
+body .user_section .user_box .left_nav >ul {
+  margin: 30px 0 0 40px;
+}
+body .user_section .user_box .left_nav >ul:last-child {
+  margin-top: 30px;
+}
+body .user_section .user_box .left_nav >ul li {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+body .user_section .user_box .left_nav >ul li:first-child {
+  margin-bottom: 10px;
+  color: #333;
+}
+body .user_section .user_box .left_nav >ul li a {
+  font-size: 16px;
+  color: #757575;
+}
+body .user_section .user_box .left_nav >ul li:hover a {
+  color: #000;
+}
+body .user_section .user_box .left_nav >ul li.active a {
+  font-weight: 700;
+  color: #ff6700;
+}
+body .user_section .user_box .right_detail {
+  width: 978px;
+  height: 100%;
+  background-color: #fff;
+}
+body .user_section .user_box .right_detail h3 {
+  height: 60px;
+  margin-left: 40px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+}
+body .user_section .user_box .right_detail .my_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .user_section .user_box .right_detail .my_info li {
+  width: 900px;
+  height: 45px;
+  margin-top: 10px;
+  line-height: 45px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+}
+body .user_section .user_box .right_detail .my_info li .info_field {
+  width: 70px;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #757575;
+}
+body .user_section .user_box .right_detail .my_info li .info_content {
+  width: 480px;
+  height: 100%;
+  padding-left: 120px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+body .user_section .user_box .right_detail .my_info li >a {
+  width: 160px;
+  height: 100%;
+  margin-right: 50px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: #008080;
+}
+body .user_section .user_box .right_detail .my_info li >a:hover {
+  color: #ff6700;
+}
+body footer {
+  width: 100%;
+  height: 180px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+body footer .nav_ul li {
+  float: left;
+  padding: 0 4px;
+}
+body footer .backpack {
+  margin: 15px 0;
+}

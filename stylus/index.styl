@@ -291,21 +291,7 @@ body
                         transform translateY(-2px)
                         box-shadow 0 0 30px #ccc
                         .fitting .user_comment
-                            position absolute
-                            bottom 0
-                            left 0
-                            width 100%
                             height 70px
-                            display flex
-                            flex-direction column
-                            justify-content center
-                            align-items center
-                            
-                            color #fff
-                            font-size 12px
-                            background $theme_color
-                            span
-                                margin-top 5px
                     .fitting
                         display flex
                         flex-direction column
@@ -341,7 +327,22 @@ body
                             font-size 12px
                             color #aaa
                         .user_comment
-                            display none
+                            transition 200ms height linear
+                            display flex
+                            position absolute
+                            bottom 0
+                            left 0
+                            width 100%
+                            height 0
+                            flex-direction column
+                            justify-content center
+                            align-items center
+    
+                            color #fff
+                            font-size 12px
+                            background $theme_color
+                            span
+                                margin-top 5px
                 .last_li
                     background-color #0000
                     &:hover
